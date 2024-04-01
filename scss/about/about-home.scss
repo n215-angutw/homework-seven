@@ -1,0 +1,249 @@
+.about-home{
+
+        width: $content-width;
+        background-color: none;
+        margin: 0 auto;
+        height: 100%;
+        
+    }
+    
+    .space{
+        background-color: none;
+        height: 110px;
+    }
+    
+    .about-title{
+        text-transform: uppercase;
+        font-size: 60px;
+        background-color: none;
+        height: 70px;
+        width: 233px;
+    }
+    
+    .line-one{
+        width: 171px;
+        background-color: black;
+        height: 2px;
+        position: absolute;
+    }
+    
+    .wrapper{
+        color: $cite-black;
+        padding-top: 30px;
+        letter-spacing: 1px;
+        font-size: 16px;
+        font-family: 'Gill Sans';
+    }
+    
+    .space-two{
+        background-color: none;
+        height: 110px;
+    }
+    
+    .qoute-title{
+        text-transform: uppercase;
+        font-size: 40px;
+        background-color: none;
+        height: 50px;
+        width: 350px;
+    }
+    
+    .line-two{
+        width: 235px;
+        background-color: black;
+        height: 2px;
+        position: absolute;
+    }
+    
+    .box-one{
+        height: 150px;
+        width: 712px;
+        background-color: none;
+        margin-top: 40px;
+    
+    
+        .picture-one{
+            height: 150px;
+            width: 260px;
+            background-color: none;
+            background-image: url(../images/aboutpage/client-one.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    
+        .info-one{
+            width: 385px;
+            height: 102px;
+            background-color: none;
+            margin-left: 290px;
+            font-size: 16px;
+            font-family: 'Gill Sans';
+        }
+    
+        .name-one{
+            width: 165px;
+            height: 20px;
+            background-color: none;
+            font-size: 20px;
+            margin-left: 550px;
+            color: $cite-blue;
+            font-family: 'Gill Sans';
+        }
+    }
+    
+    
+    .box-two{
+        height: 150px;
+        width: 712px;
+        background-color: none;
+        margin-top: 20px;
+    
+    
+        .picture-two{
+            height: 150px;
+            width: 260px;
+            background-color: none;
+            background-image: url(../images/aboutpage/client-two.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    
+        .info-two{
+            width: 385px;
+            height: 102px;
+            background-color: none;
+            margin-left: 290px;
+            font-size: 16px;
+            font-family: 'Gill Sans';
+        }
+    
+        .name-two{
+            width: 165px;
+            height: 20px;
+            background-color: none;
+            font-size: 20px;
+            margin-left: 550px;
+            color: $cite-blue;
+            font-family: 'Gill Sans';
+        }
+    }
+    
+    
+    .space-three{
+        background-color: none;
+        height: 230px;
+    }
+    
+    
+    
+    
+    
+    
+    @media all and (max-width: 1000px) {
+    
+        .home{
+    
+            width: $content-width;
+            background-color: none;
+            margin: 0 auto;
+            height: 100%;
+            
+        }
+        
+        .space{
+            background-color: none;
+            height: 110px;
+        }
+        
+        .about-title{
+            margin: 0 auto;
+        }
+        
+        .line-one{
+          margin-left: 400px;
+        }
+        
+        .wrapper{
+    
+            width: 500px;
+            margin: 0 auto;
+            
+        }
+        
+        .space-two{
+            
+        }
+        
+        .qoute-title{
+            margin: 0 auto;
+        }
+        
+        .line-two{
+            margin-left: 350px;
+        }
+        
+        .box-one{
+    
+            padding-top: 30px;
+            margin: 0 auto;
+        
+        
+            .picture-one{
+            
+            }
+        
+            .info-one{
+              
+            }
+        
+            .name-one{
+            }
+        }
+        
+        
+        .box-two{
+            padding-top: 30px;
+            margin: 0 auto;
+            flex-direction: column;
+          
+        
+            .picture-two{
+                height: 150px;
+                width: 260px;
+                background-color: none;
+                background-image: url(../images/client-two.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        
+            .info-two{
+                width: 385px;
+                height: 102px;
+                background-color: none;
+                margin-left: 290px;
+                font-size: 16px;
+                font-family: 'Gill Sans';
+            }
+        
+            .name-two{
+                width: 165px;
+                height: 20px;
+                background-color: none;
+                font-size: 20px;
+                margin-left: 550px;
+                color: $cite-blue;
+                font-family: 'Gill Sans';
+            }
+        }
+        
+        
+        .space-three{
+            background-color: none;
+            height: 230px;
+        }
+    
+    
+    }

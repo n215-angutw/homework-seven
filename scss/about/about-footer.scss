@@ -1,0 +1,93 @@
+.about-footer{
+        min-width: 1280px;
+        height: 100px;
+        background-color: $cite-blue;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+        
+    
+    
+        .logo{
+            width: 92px;
+            height: 42px;
+            background-color: none;
+            align-self: center;
+            background-image: url(../images/aboutpage/logo-white.png);
+            
+        }
+    
+        .copy{
+            font-size: 12px;
+            font-family: 'Gill Sans';
+            width: 216px;
+            height: 14px;
+            background-color: none;
+            align-self: center;
+            color: $cite-white;
+            
+        }
+    
+        .app-box{
+            width: 216px;
+            height: 42px;
+            background-color: none;
+            align-self: center;
+            display: flex;
+            justify-content: space-evenly;
+            
+    
+    
+            .icon{
+                width: 22px;
+                height: 22px;
+                background-color: none;
+                display: flex;
+                justify-content: space-evenly;
+                align-self: center;
+                padding-top: 10px;
+            }
+               
+        }
+    
+    }
+    
+    
+    
+    @media all and (max-width: 1000px) {
+        
+        footer{
+    
+            
+            justify-content: center;
+        
+        
+            .logo{
+    
+                position: absolute;
+                margin-right: 600px;
+                
+            }
+        
+            .copy{
+               
+                display: none;
+    
+                
+            }
+        
+            .app-box{
+                
+                
+        
+        
+                .icon{
+                    
+                }
+                   
+            }
+        
+        }
+    
+    
+    }
