@@ -1,0 +1,72 @@
+.tour-content{
+        max-width: $content-width;
+        background-color: none;
+        min-height: 100%;
+        margin: 0 auto;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-evenly;
+    
+        .box{
+            width: 236px;
+            height: 304px;
+            background-color: lavender;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+    
+    
+            .tour-name{
+                color: #fff;
+                font-size: 40px;
+                font-family: 'Gill Sans';
+                text-transform: capitalize;
+                text-align: center;
+                padding-top: 50px;
+                
+            }
+    
+            .tour-price{
+                color: #fff;
+                font-size: 25px;
+                font-family: 'Gill Sans';
+                text-align: center;
+            }
+    
+            .tour-button{
+               width: 133px;
+               height: 40px;
+               background-color: $cite-blue;
+               color: #fff;
+               border: none;
+               text-transform: uppercase;
+               border-radius: 30px;
+               margin-top: 60px;
+               margin-left: 50px;
+               font-family: 'Gill Sans';
+               cursor: pointer;
+            }
+    
+            .tour-link{
+                text-decoration: none;
+                color: #fff;
+            }
+    
+        }
+    
+        .tourOne{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(../images/tourpage/tour/tour-01.jpg) 
+        }
+    
+        .tourTwo{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(../images/tourpage/tour/tour-02.jpg) 
+        }
+    
+        .tourThree{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(../images/tourpage/tour/tour-03.jpg) 
+        }
+    }
+    

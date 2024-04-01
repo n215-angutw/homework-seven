@@ -1,0 +1,30 @@
+.one-content{
+    max-width: $content-width;
+    background-color: none;
+    min-height: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+
+    .box{
+        width: 298px;
+        height: 347px;
+        background-color: none;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .picOne{
+        background-image: url(../images/tourpage/tour/tour-israel/israel-tour-01.jpg);
+    }
+
+    .picTwo{
+        background-image: url(../images/tourpage/tour/tour-israel/israel-tour-02.jpg);
+    }
+
+    .picThree{
+        background-image: url(../images/tourpage/tour/tour-israel/israel-tour-03.jpg);
+    }
+}

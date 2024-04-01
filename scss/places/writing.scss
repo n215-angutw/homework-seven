@@ -1,0 +1,49 @@
+.writing{
+    max-width: $content-width;
+    height: 776px;
+    background-color: none;
+    margin: 0 auto;
+    margin-top: 40px;
+    flex-direction: column;
+
+    .secOne{
+        height: 220px;
+    }
+
+    .secTwo{
+        height: 220px;
+        padding-top: 40px;
+    }
+
+    .secThree{
+        height: 220px;
+        padding-top: 40px;
+    }
+
+
+    .title{
+        font-family: 'Gill Sans';
+        font-size: 40px;
+    }
+
+    .info{
+        font-family: 'Gill Sans';
+        letter-spacing: 1px;
+        padding-top: 10px;
+    }
+
+
+    .book-button{
+        font-family: 'Gill Sans';
+        border: none;
+        text-transform: uppercase;
+        width: 133px;
+        height: 40px;
+        background-color: $cite-blue;
+        color: #fff;
+        border-radius: 20px;
+        margin-left: 430px;
+        cursor: pointer;
+        margin-top: 30px;
+    }
+}
