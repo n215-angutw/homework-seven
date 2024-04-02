@@ -1,0 +1,49 @@
+.blockOne{
+    width: $content-width;
+    height: 400px;
+    background-color: none;
+    margin: 0 auto;
+    display: flex;
+
+
+    .picOne{
+        width: 199px;
+        height: 330px;
+        background-color: pink;
+        margin-top: 30px;
+        background-image: url(../images/offerspage/special-offer-01.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .info{
+        height: 330px;
+        width: 300px;
+        background-color: none;
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+
+    .spain{
+        font-family: 'Gill Sans';
+        font-size: 28px;
+    }
+
+    .words{
+        font-family: 'Gill Sans';
+        font-size: 16px;
+        word-spacing: 2px;
+        padding-top: 10px;
+    }
+
+    .button{
+        width: 133px;
+        height: 40px;
+        background-color: $cite-blue;
+        color: #fff;
+        border: none;
+        border-radius: 20px;
+        margin-top: 70px;
+    }
+}

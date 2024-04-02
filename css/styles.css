@@ -1692,3 +1692,107 @@ nav a {
 .nine-content .picThree {
   background-image: url(../images/tourpage/tour/tour-uae/uae-tour-03.jpg);
 }
+
+.offers-hero {
+  width: 980px;
+  height: 150px;
+  background-color: none;
+  margin: 0 auto;
+}
+.offers-hero .title {
+  font-family: "Gill Sans";
+  font-size: 25px;
+  padding-top: 70px;
+}
+
+.blockOne {
+  width: 980px;
+  height: 400px;
+  background-color: none;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.blockOne .picOne {
+  width: 199px;
+  height: 330px;
+  background-color: pink;
+  margin-top: 30px;
+  background-image: url(../images/offerspage/special-offer-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blockOne .info {
+  height: 330px;
+  width: 300px;
+  background-color: none;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.blockOne .spain {
+  font-family: "Gill Sans";
+  font-size: 28px;
+}
+.blockOne .words {
+  font-family: "Gill Sans";
+  font-size: 16px;
+  word-spacing: 2px;
+  padding-top: 10px;
+}
+.blockOne .button {
+  width: 133px;
+  height: 40px;
+  background-color: #79ADDC;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  margin-top: 70px;
+}
+
+.blockTwo {
+  width: 980px;
+  height: 400px;
+  background-color: none;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.blockTwo .picOne {
+  width: 199px;
+  height: 330px;
+  background-color: pink;
+  margin-top: 30px;
+  background-image: url(../images/offerspage/special-offer-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blockTwo .info {
+  height: 330px;
+  width: 300px;
+  background-color: none;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.blockTwo .spain {
+  font-family: "Gill Sans";
+  font-size: 28px;
+}
+.blockTwo .words {
+  font-family: "Gill Sans";
+  font-size: 16px;
+  word-spacing: 2px;
+  padding-top: 10px;
+}
+.blockTwo .button {
+  width: 133px;
+  height: 40px;
+  background-color: #79ADDC;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  margin-top: 70px;
+}
